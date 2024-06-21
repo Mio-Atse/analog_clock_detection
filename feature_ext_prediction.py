@@ -5,7 +5,7 @@ import os
 
 # CSV file containing images and times
 clock_images_path = 'images_cropped_fixed/'  # Directory containing cropped analog clock images
-csv_file = 'label.csv'  # CSV file containing clock times
+csv_file = './pre_calculated/label.csv'  # CSV file containing clock times
 
 # Load time data from CSV file
 time_data = pd.read_csv(csv_file, sep=';')
