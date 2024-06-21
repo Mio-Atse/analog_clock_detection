@@ -7,7 +7,7 @@ model = torch.hub.load('ultralytics/yolov5', 'yolov5s', pretrained=True)
 
 # Paths for folders
 image_dir = 'images'
-fixed_image_dir = 'cropped_resized_images'  # New folder name for cropped and resized images
+fixed_image_dir = 'images_cropped_fixed'  # New folder name for cropped and resized images
 
 # Creating the folder if it doesn't exist for cropped and resized images
 if not os.path.exists(fixed_image_dir):
