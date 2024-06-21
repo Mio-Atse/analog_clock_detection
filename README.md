@@ -67,6 +67,7 @@ The project utilizes OpenCV (Open Source Computer Vision Library) and pandas for
 
 3. **Running the Code:**
    - Run the Python script (`feature_ext_prediction.py`).
+   - Create `matches/`folder under `analog_clock_detection`. Place the images you want to match into the `matches/` folder.
    - The script will process each image in the `matches/` directory, attempting to predict the time shown on the analog clock in each image.
 
 4. **Output:**
