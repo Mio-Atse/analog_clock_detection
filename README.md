@@ -22,6 +22,7 @@ This repository contains algorithms for estimating time on analog clocks using t
 ### Dataset Preparation
 - Download the dataset from [this link](https://www.kaggle.com/datasets/vctorsuarezvara/real-images-of-analogclocks).
 - Place the `label.csv` file under the analog_clock_detection folder
+- Separate the first column of the `label.csv` file into filenames. 0.jpg, 1.jpg, 2.jpg and so on. The already edited version for the given dataset is located in the pre_calculated folder. The script reads directly from this folder the `label.csv` file with the filename column added. You can edit the file path in the script for your own `label.csv` file.
 
 ### Object Detection and Resizing
 
